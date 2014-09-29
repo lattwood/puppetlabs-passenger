@@ -6,7 +6,7 @@ PassengerRuby <%= @passenger_ruby %>
 PassengerHighPerformance on
 PassengerMaxPoolSize 12
 PassengerPoolIdleTime 1500
-# PassengerMaxRequests 1000
+PassengerMaxRequests 1000
 PassengerStatThrottleRate 120
 <% if @passenger_version =~ /^4\.\d+\.\d+/ -%>
 PassengerEnabled on
